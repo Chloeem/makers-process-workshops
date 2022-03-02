@@ -3,14 +3,8 @@
 // else return false
 
 const leapYears = (year) => {
-  if (year % 400 === 0) {
-    return true;
-  } else if (year % 4 === 0 && year % 100 !== 0) {
-    return true;
-  } else {
-    return false;
-  };
-}
+  return (year % 400 === 0 || year % 4 === 0 && year % 100 !== 0 ? true : false);
+};
 
 const leapYearsOutput = leapYears(1500);
 
