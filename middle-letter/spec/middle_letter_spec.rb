@@ -16,4 +16,6 @@ describe "#middle_letter" do
   it "return 'of when the input is 'of'" do
     expect(middle_letter("of")).to eq("of")
   end
+
+  
 end
