@@ -10,5 +10,6 @@ describe "#middle_letter" do
   end
 
   it "return 'A' when the input is 'A'" do
+    expect(middle_letter("A")).to eq("A")
   end
 end
