@@ -1,7 +1,7 @@
 require_relative "../lib/middle_letter.rb"
 
 describe "#middle_letter" do
-  it "returns a word" do
-    expect(middle_letter).to eq("Hello, world")
+  it "returns 'es' when the input is 'test'" do
+    expect(middle_letter("test")).to eq("es")
   end
 end
