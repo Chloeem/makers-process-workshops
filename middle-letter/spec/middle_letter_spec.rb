@@ -13,9 +13,12 @@ describe "#middle_letter" do
     expect(middle_letter("A")).to eq("A")
   end
 
-  it "return 'of when the input is 'of'" do
+  it "return 'of' when the input is 'of'" do
     expect(middle_letter("of")).to eq("of")
   end
 
+  it "return 'dd' when the input is 'middle'" do
+    expect(middle_letter("middle")).to eq("dd")
+  end
   
 end
